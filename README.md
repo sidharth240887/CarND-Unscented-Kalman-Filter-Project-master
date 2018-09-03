@@ -121,8 +121,7 @@ No modifications on CMakeList.txt were done in this project. It compiles without
 
 ## Accuracy
 
-### For the new version of the project, there is now only one data set "obj_pose-laser-radar-synthetic-input.txt". px, py, vx, vy output coordinates must have an RMSE <= [.09, .10, .40, .30] when using the file: "obj_pose-laser-radar-synthetic-input.txt"
-
+### px, py, vx, vy output coordinates must have an RMSE <= [.09, .10, .40, .30]
 The UKF accuracy was:
 
 - Dataset 1 : RMSE = [0.0694, 0.0835, 0.3339, 0.2380]
